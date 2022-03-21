@@ -1,0 +1,937 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GUCCI®</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons-font/themify-icons/themify-icons.css">
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="wapper">
+        <div class="header">
+            <nav class="header__navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__list-item">
+                        <a href="" class="navbar__list-link">
+                            <i class="navbar__list-icon fas fa-map-marker-alt"></i>
+                            <span class="navbar__list-title">United States</span>
+                        </a>
+                        <!-- navbar__country  -->
+                        <div class="navbar__country">
+                            <div class="navbar__country-wrap">
+                                <h3 class="navbar__country-heading">ONLINE SHOPPING AVAILABLE</h3>
+                                <p class="navbar__country-desc">
+                                    Be advised that changing your location while shopping will remove all the contents from your shopping bag.
+                                </p>
+                                <div class="navbar__country-option">
+                                    <a href="" class="navbar__country-link">
+                                        Ship to: Sweden
+                                    </a>
+                                    <a href="" class="navbar__country-link">
+                                        Change Country/Region
+                                        <i class="fa-solid fa-chevron-right"></i>
+                                    </a>
+                                </div>
+                                <h3 class="navbar__country-heading">STORE LOCATOR</h3>
+                                <div class="search__country">
+                                    <div class="search__country-wrap">
+                                        <input type="text" placeholder="City, Region, Country">
+                                    </div>
+                                    <div class="search__country-btn">
+                                        <i class="search__country-icon-search fas fa-search"></i>
+                                    </div>
+                                </div>
+                                <div class="navbar__usecountry">
+                                    <a href="" class="navbar__usecountry-link">
+                                        <i class="navbar__usecountry-icon fa-solid fa-location-arrow"></i>
+                                        Use My Current Location
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__list-item navbar__language">
+                        <a href="" class="navbar__list-link">
+                            <span class="navbar__list-title">English</span>
+                            <i class="navbar__list-icon fas fa-regular fa-angle-down"></i>
+                        </a>
+                        <div class="language">
+                            <div class="language-wrap">
+                                    <ul class="language__list">
+                                        <li class="language__item">
+                                            <a href="" class="language__link">Deutsch</a>
+                                        </li><li class="language__item">
+                                            <a href="" class="language__link">Español</a>
+                                        </li><li class="language__item">
+                                            <a href="" class="language__link">Français</a>
+                                        </li><li class="language__item">
+                                            <a href="" class="language__link">Italiano</a>
+                                        </li><li class="language__item">
+                                            <a href="" class="language__link">简体中文</a>
+                                        </li>
+                                    </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="" class="navbar__list-link">
+                            <span class="navbar__list-title">Client Services</span>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navbar__list logo">
+                    <a href="" class="header__logo-link">
+                        <img src="./assets/img/logo.png" alt="GUCCI®" class="header__logo-img">
+                    </a>
+                </ul>
+                <ul class="navbar__list">
+                    <li class="navbar__list-item navbar_signin">
+                        <a href="" class="navbar__list-link">
+                            <span class="navbar__list-title">
+                                Sign In
+                            </span>
+                        </a>
+                        <div class="navbar__register">
+                            <div class="navbar__register-wrap">
+                                <div class="navbar__register-info">
+                                    <div class="navbar__register-heading">
+                                        Browse a personalized list created just for you
+                                    </div>
+                                    <div class="navbar-btn-create">
+                                        <a href="" class="navbar-btn-create__link">
+                                            Create My Gucci Account
+                                        </a>                                    
+                                    </div>
+                                </div>
+                                <div class="navbar__register-direct">
+                                    <div class="navbar-btn-signin">
+                                        <a href="" class="navbar-btn-signin__link">
+                                            Sign in
+                                        </a>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__list-item navbar__heart">
+                        <a href="" class="navbar__list-link">
+                            <i class="navbar__list-icon far fa-heart"></i>
+                        </a>
+                        <div class="heart">
+                            <div class="heart-wrap">
+                                <ul class="heart__list">
+                                    <li class="heart__item">
+                                        Saved Items
+                                    </li>
+                                    <li class="heart__item heart__item--disble">
+                                        Currently Empty
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__list-item navbar__bag">
+                        <a href="" class="navbar__list-link">
+                            <i style="margin-right: 4px;" class="fas fa-regular fa-bag-shopping"></i>
+                            Bag
+                        </a>
+                        <div class="navbar__bag-top">
+                            <div class="navbar__bag-wrap">
+                                <div class="navbar__bag-first">
+                                    <div class="navbar__bag-title">
+                                        Shopping Bag
+                                    </div>
+                                    <span class="navbar__bag-note">
+                                        Currently empty
+                                    </span>
+                                </div>
+                                <div class="navbar__bag-info">
+                                    <div class="navbar__bag-heading">
+                                        View your recent orders, track shipping and manage returns
+                                    </div>
+                                    <div class="navbar-btn-create">
+                                        <a href="" class="navbar-btn-create__link">
+                                            Create My Gucci Account
+                                        </a>                                    
+                                    </div>
+                                </div>
+                                <div class="navbar__bag-direct">
+                                    <div class="navbar-btn-signin">
+                                        <a href="" class="navbar-btn-signin__link">
+                                            Sign in
+                                        </a>                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__list-item">
+                        <a href="" class="navbar__list-link">
+                            <i class="navbar__list-icon-search fas fa-search"></i>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- <nav class="header__menu"> -->
+                <ul class="header__menu-list">
+                    <li class="header__menu-item whatnew-item">
+                        <a href="" class="header__menu-link">
+                            What's New
+                        </a>  
+                         <!-- Detail Menu -->
+                        <div class="detail__menu whatnew">
+                            <div class="grid wide detail__menu-wrap">
+                                <div class="row">
+                                    <div class="col l-2">
+                                        <div class="detail__menu-heading">
+                                            LATEST ARRIVALS
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Women
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Men
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2">
+                                        <div class="detail__menu-heading">
+                                            BELOVED HANDBAGS♥
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Bamboo 1947
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    GG Marmont
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Dionysus
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Horsebit 1955
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Jackie 1961
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!-- List two -->
+                                        <div class="detail__menu-heading">
+                                            OUR COMMITMENT
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Chime For Change
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Off The Grid
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2">
+                                        <div class="detail__menu-heading">
+                                            PROJECTS BY THE HOUSE
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Garden
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Giardino 25
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Osteria da Massimo Bottura
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2">
+                                        <div class="detail__menu-poster">
+                                            <img src="./assets/img/slideshow/menu_slider/s1.avif" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col l-4">
+                                        <div class="detail__menu-heading">
+                                            VIEW ALL STORIES
+                                        </div>
+                                        <div class="row detail__menu-topic">
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__menu-item handbags-item">
+                        <a href="" class="header__menu-link">
+                            Handbags
+                        </a>
+                         <!-- Detail Menu -->
+                         <div class="detail__menu handbags">
+                            <div class="grid wide detail__menu-wrap">
+                                <div class="row">
+                                    <div class="col l-2">
+                                        <div class="detail__menu-heading">
+                                            LATEST ARRIVALS
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Women
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Men
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2">
+                                        <div class="detail__menu-heading">
+                                            BELOVED HANDBAGS♥
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Bamboo 1947
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    GG Marmont
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Dionysus
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Horsebit 1955
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Jackie 1961
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <!-- List two -->
+                                        <div class="detail__menu-heading">
+                                            OUR COMMITMENT
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Chime For Change
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Off The Grid
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2">
+                                        <div class="detail__menu-heading">
+                                            PROJECTS BY THE HOUSE
+                                        </div>
+                                        <ul class="detail__menu-list">
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Garden
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Giardino 25
+                                                </a>
+                                            </li>
+                                            <li class="detail__menu-item">
+                                                <a href="" class="detail__menu-link">
+                                                    Gucci Osteria da Massimo Bottura
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="col l-2">
+                                        <div class="detail__menu-poster">
+                                            <img src="./assets/img/slideshow/menu_slider/s1.avif" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="col l-4">
+                                        <div class="detail__menu-heading">
+                                            VIEW ALL STORIES
+                                        </div>
+                                        <div class="row detail__menu-topic">
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="col l-6 detail__menu-info">
+                                                <a href="" class="detail__menu-link">
+                                                    <div class="col l-6 detail__menu-img">
+                                                        <img src="./assets/img/menu_detail/menu_detail1.avif" alt="" class="">
+                                                    </div>
+                                                    <div class="col l-6 detail__menu-title">
+                                                        <span>RUNWAY</span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            Women
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            Men
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            MX
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            children
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            Jewelry & Watches
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            Beauty
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            Décor & Lifestyle
+                        </a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a href="" class="header__menu-link">
+                            Gifts
+                        </a>
+                    </li>
+                    <li class="header__menu-item header__menu-item--active">
+                        <a href="" class="header__menu-link">
+                            Vault
+                        </a>
+                    </li>
+                </ul>
+            <!-- </nav> -->
+            
+        </div>
+        <div class="slider">     
+            <div class="myslide fade">
+                <img style="background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('./assets/img/slideshow/slider1.jpg')" class="slider__img">
+                <div class="txt">
+                    <p>Gucci Beloved</p>
+                    <h1>GG MARMONT</h1>
+                        <div class="slider__btn">
+                            <a href="" class="slider__link">
+                                Shop the collection
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="myslide fade">
+                <img style="background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)),url('./assets/img/slideshow/slider2.jpg')" class="slider__img">
+                <div class="txt">
+                    <p>The Perfect Place to Restart</p>
+                    <h1>Gucci Love Parade</h1>
+                        <div class="slider__btn">
+                            <a href="" class="slider__link">
+                                Discover the Collection
+                            </a>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- onclick js -->
+            <a class="prev" onclick="plusSlides(-1)">
+                <i class="prev-icon ti-angle-left"></i>
+            </a>
+              <a class="next" onclick="plusSlides(1)">
+                <i class="prev-icon ti-angle-right"></i>
+            </a>
+            
+            <div class="dotsbox" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+            </div>
+
+        </div>
+        <div class="content">
+            <div class="grid wide product-hot">
+                <div class="row">
+                    <div class="col l-6">
+                        <a href="" class="product-hot__link">
+                            <img src="./assets/img/product/sp1.avif" alt="" class="product-hot__img">
+                            <h1 class="product-hot__name">Gucci Diana small tote bag</h1>
+                            <div class="btn-buy">
+                                <a href="" class="btn-but__link">shop now</a>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col l-6">
+                        <a href="" class="product-hot__link">
+                            <img src="./assets/img/product/sp2.avif" alt="" class="product-hot__img">
+                            <h1 class="product-hot__name">Women's Handbags</h1>
+                            <div class="btn-buy">
+                                <a href="" class="btn-but__link">Shop Handbags</a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="album">
+                <div class="grid wide">
+                    <div class="row">
+                        <div class="col l-12">
+                            <a href="" class="album__link">
+                                <img src="./assets/img/album1.avif" alt="" class="album-img">
+                            </a>
+                        </div>
+                        <div class="col l-12">
+                            <h1 class="product-hot__name album-hot__name">Gucci Love Parade</h1>
+                        </div> 
+                    </div>
+                    <div class="album-btn">
+                        <div class="btn-buy">
+                            <a href="" class="btn-but__link">shop WOMEN</a>
+                        </div>
+                        <div class="btn-buy">
+                            <a href="" class="btn-but__link">shop MEN</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="comment">
+                <!-- <a href="" class="comment__link"> -->
+                    <div class="comment-wrap">
+                        <div class="comment-background">
+                            <img src="./assets/img/comment.avif" alt="" class="comment-img">
+                        </div>
+                        <div class="comment-content">
+                            <a href="" class="comment-content__link">
+                                <div class="comment-content-wrap">
+                                    <div class="comment-content__heading">Exquisite Gucci</div>
+                                    <div class="comment-content__sub">The new collection by Alessandro Michele</div>
+                                    <div class="comment-panel">
+                                        <a href="" class="comment-panel__link">
+                                            <span class="comment-panel__desc">
+                                                Discover More
+                                            </span>
+                                            <i class="comment-panel-icon ti-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                <!-- </a> -->
+            </div>
+            <div class="stories">
+                <div class="stories-heading">
+                    STORIES
+                </div>
+                <div class="grid wide stories-list">
+                    <div class="row">
+                        <div class="col l-4">
+                            <div class="row">
+                                <div class="col l-12 stories-item">
+                                    <img src="./assets/img/stories/s1.avif" alt="" class="story-img">
+                                    <h1 class="story-title">Guests Attending Exquisite Gucci</h1>
+                                    <div class="story-panel">
+                                        <a href="" class="story-panel__link">
+                                            <span class="story-panel__desc">
+                                                A PHOTO GALLERY 
+                                            </span>
+                                            <i class="story-panel-icon ti-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-12 stories-item">
+                                    <img src="./assets/img/stories/s2.avif" alt="" class="story-img">
+                                    <h1 class="story-title">Exquisite Gucci: The Show</h1>
+                                    <div class="story-panel">
+                                        <a href="" class="story-panel__link">
+                                            <span class="story-panel__desc">
+                                                WATCH THE VIDEO 
+                                            </span>
+                                            <i class="story-panel-icon ti-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="row">
+                                <div class="col l-12 stories-item">
+                                    <img src="./assets/img/stories/s3.avif" alt="" class="story-img">
+                                    <h1 class="story-title">Exquisite Gucci: The Collection</h1>
+                                    <div class="story-panel">
+                                        <a href="" class="story-panel__link">
+                                            <span class="story-panel__desc">
+                                                THE LOOKS
+                                            </span>
+                                            <i class="story-panel-icon ti-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-4">
+                            <div class="row">
+                                <div class="col l-12 stories-item">
+                                    <img src="./assets/img/stories/s4.avif" alt="" class="story-img">
+                                    <h1 class="story-title">Exquisite Beauty</h1>
+                                    <div class="story-panel">
+                                        <a href="" class="story-panel__link">
+                                            <span class="story-panel__desc">
+                                                THE MAKEUP AT THE SHOW
+                                            </span>
+                                            <i class="story-panel-icon ti-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col l-12 stories-item">
+                                    <img src="./assets/img/stories/s5.avif" alt="" class="story-img">
+                                    <h1 class="story-title">Magical Mirrors</h1>
+                                    <div class="story-panel">
+                                        <a href="" class="story-panel__link">
+                                            <span class="story-panel__desc">
+                                                EXQUISITE GUCCI
+                                            </span>
+                                            <i class="story-panel-icon ti-angle-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="footer">
+            <div class="grid wide footer-wrap">
+                <div class="row">
+                    <div class="col l-2">
+                        <div class="footer-heading">
+                            EXCLUSIVE SERVICES
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fas fa-gift"></i>
+                                    Exclusive Online Services
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fas fa-envelope"></i>
+                                    Saturday Delivery
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fas fa-table"></i>
+                                    Gucci Osteria da Massimo Bottura
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fas fa-gift"></i>
+                                    Book An Appointment
+                                </a>
+                            </li>     
+                        </ul>
+                    </div>
+                    <div class="col l-2">
+                        <div class="footer-heading">
+                            MAY WE HELP YOU?
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-link">FAQs</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Contact Us</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Email Unsubscribe</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Payment Options</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Shipping Services</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Returns & Exchanges</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Corporate Gifting</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Product Care</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Sitemap</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2">
+                        <div class="footer-heading">
+                            THE COMPANY
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-link">About Gucci</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Gucci Garden</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Gucci Equilibrium</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Code of Ethics</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Careers</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Legal</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Privacy & Cookie Policy</a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">Corporate Informations</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col l-2">
+                        <div class="footer-heading">
+                            FIND US ON
+                        </div>
+                        <ul class="footer-list">
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fab fa-facebook-f"></i>
+                                    Facebook
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fab fa-twitter"></i>
+                                    Twitter
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fab fa-instagram"></i>
+                                    Instagram
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fab fa-instagram"></i>
+                                    Instagram Beauty
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fab fa-youtube"></i>
+                                    YouTube
+                                </a>
+                            </li>
+                            <li class="footer-item">
+                                <a href="" class="footer-link">
+                                    <i class="footer-icon fab fa-pinterest-p"></i>
+                                    Pinterest
+                                </a>
+                            </li>      
+                        </ul>
+                    </div>
+                    <div class="col l-4">
+                        <div class="footer-heading">SIGN UP FOR GUCCI UPDATES</div>
+                        <div class="footer-desc">By entering your email address below, you consent to receiving our newsletter with access to our latest collections, events and initiatives. More details on this are provided in our <a href="">Privacy Policy</a></div>
+                        <div class="footer-input-wrap">
+                            <input type="email" class="footer-input" required placeholder="E-Mail Address">
+                            <div class="footer-input__btn">
+                                <i class="footer-input__btn-icon fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                        <div class="footer-heading">STORE LOCATOR</div>
+                        <div class="footer-input-wrap">
+                            <input type="email" class="footer-input" placeholder="City, Region, Country">
+                            <div class="footer-input__btn">
+                                <i class="footer-input__btn-icon fas fa-chevron-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="copyright">
+                    <p class="copyright-text">
+                        © 2016 - 2021 Guccio Gucci S.p.A. - All rights reserved. G Commerce Europe S.p.A. - IT VAT nr 05142860484. SIAE LICENCE # 2294/I/1936 and 5647/I/1936
+                    </p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
